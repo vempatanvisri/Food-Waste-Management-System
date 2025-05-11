@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: 500;
+}
+
+.btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.food-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.food-option {
+    text-align: center;
+}
+
+.food-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#pickupRequestForm {
+    display: none; /* Hidden initially */
+}
+
+footer {
+    margin-top: auto;
+}

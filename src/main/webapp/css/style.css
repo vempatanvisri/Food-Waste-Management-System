@@ -1,0 +1,66 @@
+/* General full height layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Expanding content section */
+.content {
+    flex: 1;
+}
+
+/* Footer stays at bottom */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Carousel image */
+.feature-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #28a745;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Our Services section styles */
+.icon {
+    font-size: 3rem;
+    color: #28a745; /* You can change this color to suit your theme */
+    margin-bottom: 10px;
+}
+
+/* Optional: Card-like appearance for each service item */
+.packages-card {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.packages-card:hover {
+    transform: translateY(-5px);
+}
+
+header {
+    background: url('/images/p3.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+header .btn {
+    background-color: #28a745;
+}
+
+header .btn:hover {
+    background-color: #1e7e34;
+}
